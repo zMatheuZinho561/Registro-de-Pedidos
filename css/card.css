@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10vw 10vw;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.produto-icon {
+    color: #28a745;
+}
+
+.pedido-icon {
+    color: #dc3545;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.btn {
+    background-color: #4a6fa5;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #3a5a80;
+}
+
+.btn-adicionar {
+    background-color: #28a745;
+}
+
+.btn-adicionar:hover {
+    background-color: #218838;
+}
+
+.btn-pedido {
+    background-color: #dc3545;
+}
+
+.btn-pedido:hover {
+    background-color: #c82333;
+}

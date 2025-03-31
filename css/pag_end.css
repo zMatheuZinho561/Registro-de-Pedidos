@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container principal */
+.container {
+    text-align: center;
+}
+
+/* Caixa de mensagem */
+.message-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Título da mensagem */
+h1 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Texto da mensagem */
+p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Ícone de sucesso */
+.icon {
+    margin-bottom: 20px;
+}
+
+.icon svg {
+    fill: #4CAF50;
+}
+
+/* Estilo do botão */
+button {
+    padding: 12px 25px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo de sombra e bordas */
+.message-box {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-color: #f4f7fa;
+}

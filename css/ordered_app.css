@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contêiner principal da página */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do título principal */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Lista de pedidos */
+.pedidos-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Estilo de cada card de pedido */
+.pedido-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pedido-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para a seção de informações do pedido */
+.pedido-info h2 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.pedido-info p {
+    color: #555;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.pedido-info p strong {
+    color: #333;
+}
+
+/* Estilo para o status */
+.status {
+    font-weight: bold;
+}
+
+.status.pendente {
+    color: #ff9800;
+}
+
+.status.concluido {
+    color: #4caf50;
+}
+
+.status.cancelado {
+    color: #f44336;
+}
+
+/* Estilo para os botões */
+.pedido-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}

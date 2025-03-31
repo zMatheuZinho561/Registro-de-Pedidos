@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #242424
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #8fafc2;
+}
+
+.formRegister {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 50px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.151);
+    gap: 2px
+}
+
+.formRegister h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+}
+
+.formRegister p {
+    display: inline-block;
+    font-size: 14px;
+    color: #444444;
+    margin-bottom: 25px;
+}
+
+.formRegister input {
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #dadada;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 8px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+
+.formRegister input:focus {
+    border: 1px solid #143f80;
+}
+
+.formRegister label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.formRegister a:hover {
+    color: #143f80;
+}
+
+.btn {
+    background-color: #143f80;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 11px;
+    border-radius: 20px;
+    transition: all linear 160ms;
+    border-color: transparent;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #143f80;
+}
+
